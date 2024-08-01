@@ -30,11 +30,10 @@ Built by Amit Bera, [Magento StackExchange Moderator](https://magento.stackexcha
 
 ## Installation Process using Zip
 
-1. Download the extension .zip file from github https://github.com/devamitbera/magento2-add-cms-pages-to-menu.
+1. Download the extension .zip file from github https://github.com/devamitbera/additional-replace-graphql.
 2. Copy the extension  to the `{magento2-root-dir}/app/code/DevBera/CmsLinkToMenu` 
 3. Run the following series of command from SSH console of your server to install  the extension
 
-#a)  Enable the extension : `php bin/magento module:enable DevBera_CmsLinkToMenu  --clear-static-content`
 
 #b)  Run setup  Command `php bin/magento setup:upgrade`.
 
@@ -54,7 +53,6 @@ Built by Amit Bera, [Magento StackExchange Moderator](https://magento.stackexcha
  After cloning,you have to install this extension at your system by follow below steps:
  
  
-#a)  Enable the extension : `php bin/magento module:enable DevBera_CmsLinkToMenu  --clear-static-content`
 
 #b)  Run setup  Command `php bin/magento setup:upgrade`.
 

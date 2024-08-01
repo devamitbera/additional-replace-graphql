@@ -1,5 +1,14 @@
 {
-  "name": "yireo/magento2-replace-graphql",
+  "name": "devamitbera/additional-replace-graphql",
+  "license": "OSL-3.0",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Amit Bera",
+      "email": "dev.amitbera@gmail.com",
+      "homepage": "https://www.amitbera.com"
+    }
+  ],
   "require": {
     "magento/product-community-edition": "2.4.*",
     "yireo/magento2-replace-graphql": "^4.0"
@@ -7,5 +16,6 @@
   "replace": {    
     "magento/module-payment-services-paypal-graph-ql":"*",
     "magento/module-order-cancellation-graph-ql":"*"
-  }
+  },
+  "minimum-stability": "stable"
 }
