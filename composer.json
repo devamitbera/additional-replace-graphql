@@ -1,0 +1,11 @@
+{
+  "name": "yireo/magento2-replace-graphql",
+  "require": {
+    "magento/product-community-edition": "2.4.*",
+    "yireo/magento2-replace-graphql": "^4.0"
+  },
+  "replace": {    
+    "magento/module-payment-services-paypal-graph-ql":"*",
+    "magento/module-order-cancellation-graph-ql":"*"
+  }
+}
