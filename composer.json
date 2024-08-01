@@ -1,7 +1,7 @@
 {
   "name": "devamitbera/additional-replace-graphql",
   "license": "OSL-3.0",
-  "version": "1.0.2",
+  "version": "1.1.7",
   "authors": [
     {
       "name": "Amit Bera",
@@ -26,7 +26,13 @@
     "magento/module-newsletter-graph-ql": "*",
     "magento/module-payment-graph-ql": "*",
     "magento/module-contact-graph-ql": "*",
-    "magento/module-review-graph-ql": "*"
+    "magento/module-review-graph-ql": "*",
+    "magento/module-services-id-graph-ql-server": "*",
+    "magento/module-integration-graph-ql": "*",
+    "magento/module-admin-graph-ql-server": "*",
+    "magento/module-graph-ql-new-relic": "*",
+    "magento/module-graph-ql-resolver-cache": "*",
+    "magento/module-graph-ql-server": "*"
   },
   "minimum-stability": "stable"
 }
