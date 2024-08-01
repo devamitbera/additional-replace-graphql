@@ -1,7 +1,7 @@
 {
   "name": "devamitbera/additional-replace-graphql",
   "license": "OSL-3.0",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "authors": [
     {
       "name": "Amit Bera",
@@ -15,7 +15,17 @@
   },
   "replace": {    
     "magento/module-payment-services-paypal-graph-ql":"*",
-    "magento/module-order-cancellation-graph-ql":"*"
+    "magento/module-order-cancellation-graph-ql":"*",
+    "magento/module-re-captcha-webapi-graph-ql": "*",
+    "magento/module-login-as-customer-graph-ql": "*",
+    "magento/module-gift-message-graph-ql": "*",
+    "magento/module-compare-list-graph-ql": "*",
+    "magento/module-catalog-rule-graph-ql": "*",
+    "magento/module-sales-rule-graph-ql": "*",
+    "magento/module-newsletter-graph-ql": "*",
+    "magento/module-payment-graph-ql": "*",
+    "magento/module-contact-graph-ql": "*",
+    "magento/module-review-graph-ql": "*"
   },
   "minimum-stability": "stable"
 }
